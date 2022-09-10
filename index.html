@@ -1,61 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style type="text/css">
-			@font-face {
-				font-family: "Gotham-Bold";
-				src: url(fonts/Gotham-Bold.otf);
-			}
-			@font-face {
-				font-family: "Gotham-Medium";
-				src: url(fonts/GothamMedium.ttf);
-			}
-			@font-face {
-				font-family: "Gotham-Thin";
-				src: url(fonts/Gotham-Thin.otf);
-			}
-			h1 {
-				font-family: "Gotham-Bold", sans-serif;
-				font-weight: bold;
-				font-size: 5em;
-			}
-			body {
-				font-family: "Gotham-Medium", sans-serif;
-				font-weight: normal;
-				font-size: 2em;
-				color: white;
-				background-color: rgb(0, 0, 0);
-				text-align: center;
-			}
-			footer {
-				font-family: "Gotham-Thin", sans-serif;
-				font-weight: lighter;
-				font-size: 15px;
-				text-align: justify;
-			}
-			#rcorner {
-				border-radius: 12px;
-				background: #535353;
-				padding: 25px;
-			}
-			#rcorner2 {
-				border-radius: 12px;
-				background: #091113;
-				padding: 25px;
-				margin: 40px 40px 40px 40px;
-				box-shadow: 0px 0px 50px -10px black;
-			}
-			#rcorner3 {
-				border-radius: 12px;
-				background: #535353;
-				padding: 25px;
-				margin: 10px 0 10px 0;
-			}
-			img.johan {
-				filter: brightness(50%);
-				box-shadow: 0px 0px 50px -10px black;
-			}
-		</style>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
 		<title>Bio • Fatur</title>
 		<link
 			rel="icon"
@@ -85,33 +32,42 @@
 				<p>Cita-cita: Jamsut</p>
 			</div>
 			<div id="rcorner2">
-				<a href="https://discord.com/users/728137509065850921"
+				<a
+					class="social"
+					href="https://discord.com/users/728137509065850921"
 					><img
 						src="https://media.discordapp.net/attachments/1009607497507672186/1018038171944099870/cbimage.png"
-						width="100"
-				/></a>
-				<a href="https://api.whatsapp.com/send/?phone=6282394415872"
-					><img
-						src="https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png"
-						width="100"
-				/></a>
-				<a href="https://www.instagram.com/lupamandi69"
-					><img
-						src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png"
-						width="100"
+						width="150"
 				/></a>
 				<a
+					class="social"
+					href="https://api.whatsapp.com/send/?phone=6282394415872"
+					><img
+						src="https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png"
+						width="150"
+				/></a>
+				<a class="social" href="https://www.instagram.com/lupamandi69"
+					><img
+						src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png"
+						width="150"
+				/></a>
+				<a
+					class="social"
 					href="https://open.spotify.com/user/31h6rda34kg6dlujyy5g5wivymdq"
 					><img
 						src="https://cdn-icons-png.flaticon.com/512/2111/2111624.png"
-						width="100"
+						width="150"
 				/></a>
 			</div>
 			<img
 				class="johan"
 				src="https://i.pinimg.com/originals/36/d3/a0/36d3a0fc51c40d18b0fb731ff36c80a5.gif"
-				width="500"
+				width="498"
+				height="333"
+				id="johan"
+				onclick="changeImage()"
 			/>
+			<br />
 		</div>
 	</body>
 	<footer>
