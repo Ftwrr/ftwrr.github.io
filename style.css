@@ -34,6 +34,7 @@ footer {
 	border-radius: 12px;
 	background: #535353;
 	padding: 25px;
+	margin: 20px 0 20px;
 }
 #rcorner2 {
 	border-radius: 12px;
@@ -59,10 +60,23 @@ footer {
 img.johan {
 	filter: brightness(50%);
 	box-shadow: 0px 0px 50px -10px black;
+	width: 498px;
+	height: 333px;
 }
 a.social:hover img {
 	opacity: 0.7;
 }
 a.social img {
 	border-radius: 50%;
+}
+#music {
+	width: 100%;
+}
+#shuffle {
+	margin: 20px 0 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	font-size: 20px;
+	border: none;
 }
