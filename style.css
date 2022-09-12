@@ -80,3 +80,6 @@ a.social img {
 	font-size: 20px;
 	border: none;
 }
+#shuffle:hover {
+	opacity: 0.7;
+}
